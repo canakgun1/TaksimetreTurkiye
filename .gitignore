@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods (remove this line if you want to commit Pods)
+Pods/
+
+Taksimetre+/Model/Ads.swift
+# Secrets (add any config/keys files you don't want public)
+*.env
+GoogleService-Info.plist
+Secrets.plist

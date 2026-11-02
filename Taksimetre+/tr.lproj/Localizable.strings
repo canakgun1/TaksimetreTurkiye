@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Taksimetre+
+
+  Created by CAN AKGUN on 21.08.2022.
+  
+*/
+
+"mins" = "dk";
+"h" = "sa";
+"hours" = "saat";
+"Website" = "Web Sitesi";
+"Phone Number" = "Telefon";
+"Address" = "Adres";
+"Search" = "Ara";
+"Choose Location" = "Konum Seç";
+"Choose" = "Seç";
+"Route" = "Rota";
+"Where will you go?" = "Nereye Gideceksin?";
+"Yellow" = "Sarı";
+"Blue" = "Mavi";
+"Black" = "Siyah";
+"Taxi type:" = "Taksi tipi:";
+"Restore Purchases" = "Satın Alımları Geri Yükle";
+"Get Lifetime Access" = "Reklamları Kaldır";

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DakikaView" customModule="GitmeZamani" customModuleProvider="target">
+            <connections>
+                <outlet property="centerConstraint" destination="FNs-Zd-jzX" id="lMA-jl-Tg5"/>
+                <outlet property="image" destination="E7E-1i-Fbw" id="ef7-c3-5Zq"/>
+                <outlet property="minuteLabel" destination="VPy-jX-mQd" id="h0H-VN-ODy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DakikaView" customModule="GitmeZamani" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LacivertDakika" translatesAutoresizingMaskIntoConstraints="NO" id="E7E-1i-Fbw">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="44"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 sa 24 dk" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="VPy-jX-mQd">
+                    <rect key="frame" x="8" y="7" width="55" height="25.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="VPy-jX-mQd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="2tE-Vk-s0k"/>
+                <constraint firstItem="E7E-1i-Fbw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="AR3-Rt-ob7"/>
+                <constraint firstItem="VPy-jX-mQd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.9" id="FNs-Zd-jzX"/>
+                <constraint firstItem="E7E-1i-Fbw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ozr-5l-K8x"/>
+                <constraint firstAttribute="trailing" secondItem="VPy-jX-mQd" secondAttribute="trailing" constant="12" id="PDv-t2-t7e"/>
+                <constraint firstAttribute="bottom" secondItem="E7E-1i-Fbw" secondAttribute="bottom" id="TMX-AJ-asD"/>
+                <constraint firstItem="VPy-jX-mQd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="f96-9g-OIR"/>
+                <constraint firstAttribute="trailing" secondItem="E7E-1i-Fbw" secondAttribute="trailing" id="m7e-zJ-VbB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="image" destination="E7E-1i-Fbw" id="YVd-1N-XPo"/>
+            </connections>
+            <point key="canvasLocation" x="-13.043478260869566" y="108.48214285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LacivertDakika" width="380" height="210"/>
+    </resources>
+</document>

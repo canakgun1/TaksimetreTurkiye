@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36573D5A2897403C0008C132 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36573D592897403C0008C132 /* GoogleService-Info.plist */; };
+		36628B8C28046D6D00FC27DC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B7F28046D6C00FC27DC /* Menu.swift */; };
+		36628B8D28046D6D00FC27DC /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8028046D6C00FC27DC /* Functions.swift */; };
+		36628B8F28046D6D00FC27DC /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8228046D6C00FC27DC /* Search.swift */; };
+		36628B9128046D6D00FC27DC /* Konum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8428046D6C00FC27DC /* Konum.swift */; };
+		36628B9228046D6D00FC27DC /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8528046D6C00FC27DC /* Bars.swift */; };
+		36628B9328046D6D00FC27DC /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8628046D6C00FC27DC /* Annotations.swift */; };
+		36628B9428046D6D00FC27DC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8728046D6C00FC27DC /* Device.swift */; };
+		36628B9528046D6D00FC27DC /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8828046D6D00FC27DC /* Adres.swift */; };
+		36628B9628046D6D00FC27DC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8928046D6D00FC27DC /* Alert.swift */; };
+		36628B9828046D6D00FC27DC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B8B28046D6D00FC27DC /* Notification.swift */; };
+		36628B9F28046D9000FC27DC /* DakikaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B9928046D9000FC27DC /* DakikaView.swift */; };
+		36628BA028046D9000FC27DC /* YerBulCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B9A28046D9000FC27DC /* YerBulCell.swift */; };
+		36628BA128046D9000FC27DC /* DakikaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36628B9B28046D9000FC27DC /* DakikaView.xib */; };
+		36628BA228046D9000FC27DC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B9C28046D9000FC27DC /* MenuCell.swift */; };
+		36628BA328046D9000FC27DC /* RotalarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B9D28046D9000FC27DC /* RotalarCell.swift */; };
+		36628BA428046D9000FC27DC /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628B9E28046D9000FC27DC /* RoundedViews.swift */; };
+		36628BAA28046D9A00FC27DC /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BA528046D9A00FC27DC /* MenuVC.swift */; };
+		36628BAB28046D9A00FC27DC /* YerBulTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BA628046D9A00FC27DC /* YerBulTVC.swift */; };
+		36628BAD28046D9A00FC27DC /* BaslangicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BA828046D9A00FC27DC /* BaslangicVC.swift */; };
+		36628BAE28046D9A00FC27DC /* HaritaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BA928046D9A00FC27DC /* HaritaVC.swift */; };
+		36628BB028046DA500FC27DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BAF28046DA500FC27DC /* Extensions.swift */; };
+		36628BB828046E5100FC27DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36628BB728046E5100FC27DC /* Assets.xcassets */; };
+		36628BC02804752C00FC27DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BBF2804752C00FC27DC /* AppDelegate.swift */; };
+		36628BC228058CC900FC27DC /* Ücret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36628BC128058CC900FC27DC /* Ücret.swift */; };
+		367888A33099500B006DC995 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367888A230995009006DC995 /* Ads.swift */; };
+		3692A43028BC327C00C59D37 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692A42F28BC327C00C59D37 /* Keychain.swift */; };
+		3692A43328BC385C00C59D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3692A43528BC385C00C59D37 /* InfoPlist.strings */; };
+		36D146D12986DFD700E92DA3 /* Kullanıcı.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D146D02986DFD700E92DA3 /* Kullanıcı.swift */; };
+		36D146D32986E08B00E92DA3 /* Rota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D146D22986E08B00E92DA3 /* Rota.swift */; };
+		36D1D6DA28BBF89C00974867 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1D6D928BBF89C00974867 /* SettingsVC.swift */; };
+		36E118C528BAE1A9009B9C1A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E118C428BAE1A9009B9C1A /* Colors.swift */; };
+		36E118C728BAECB1009B9C1A /* Kopru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E118C628BAECB1009B9C1A /* Kopru.swift */; };
+		36E118C928BB9F51009B9C1A /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E118C828BB9F51009B9C1A /* Analytics.swift */; };
+		36F111E428B287BA00D228CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F111E628B287BA00D228CB /* Main.storyboard */; };
+		36F111E728B287C000D228CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F111E928B287C000D228CB /* LaunchScreen.storyboard */; };
+		36F111EE28B28B5500D228CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F111F028B28B5500D228CB /* Localizable.strings */; };
+		36F111F728B28E2A00D228CB /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F111F628B28E2A00D228CB /* Localize.swift */; };
+		36F38E1C28B3FC7B0044A5D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F38E1B28B3FC7B0044A5D1 /* StoreKit.framework */; };
+		36F38E1E28B3FD200044A5D1 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F38E1D28B3FD200044A5D1 /* Payment.swift */; };
+		57C099D257C7753D8F15C57E /* Pods_Taksimetre_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC1AFA9ECC958ADA79CB93F /* Pods_Taksimetre_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36573D592897403C0008C132 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		365D635027B8280100D7E177 /* Taksimetre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taksimetre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36628B7E28046D6C00FC27DC /* Taksimetre+-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taksimetre+-Bridging-Header.h"; sourceTree = "<group>"; };
+		36628B7F28046D6C00FC27DC /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		36628B8028046D6C00FC27DC /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		36628B8228046D6C00FC27DC /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		36628B8428046D6C00FC27DC /* Konum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Konum.swift; sourceTree = "<group>"; };
+		36628B8528046D6C00FC27DC /* Bars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
+		36628B8628046D6C00FC27DC /* Annotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		36628B8728046D6C00FC27DC /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		36628B8828046D6D00FC27DC /* Adres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
+		36628B8928046D6D00FC27DC /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		36628B8B28046D6D00FC27DC /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		36628B9928046D9000FC27DC /* DakikaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DakikaView.swift; sourceTree = "<group>"; };
+		36628B9A28046D9000FC27DC /* YerBulCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YerBulCell.swift; sourceTree = "<group>"; };
+		36628B9B28046D9000FC27DC /* DakikaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DakikaView.xib; sourceTree = "<group>"; };
+		36628B9C28046D9000FC27DC /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		36628B9D28046D9000FC27DC /* RotalarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotalarCell.swift; sourceTree = "<group>"; };
+		36628B9E28046D9000FC27DC /* RoundedViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		36628BA528046D9A00FC27DC /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		36628BA628046D9A00FC27DC /* YerBulTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YerBulTVC.swift; sourceTree = "<group>"; };
+		36628BA828046D9A00FC27DC /* BaslangicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaslangicVC.swift; sourceTree = "<group>"; };
+		36628BA928046D9A00FC27DC /* HaritaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaritaVC.swift; sourceTree = "<group>"; };
+		36628BAF28046DA500FC27DC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		36628BB728046E5100FC27DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36628BBD28046FAF00FC27DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36628BBF2804752C00FC27DC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36628BC128058CC900FC27DC /* Ücret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ücret.swift"; sourceTree = "<group>"; };
+		367888A230995009006DC995 /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		3692A42F28BC327C00C59D37 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3692A43428BC385C00C59D37 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36D146D02986DFD700E92DA3 /* Kullanıcı.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kullanıcı.swift"; sourceTree = "<group>"; };
+		36D146D22986E08B00E92DA3 /* Rota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rota.swift; sourceTree = "<group>"; };
+		36D1D6D928BBF89C00974867 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		36E118C428BAE1A9009B9C1A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		36E118C628BAECB1009B9C1A /* Kopru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kopru.swift; sourceTree = "<group>"; };
+		36E118C828BB9F51009B9C1A /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		36F111E528B287BA00D228CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36F111E828B287C000D228CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36F111EA28B287D500D228CB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		36F111EB28B287D500D228CB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		36F111EF28B28B5500D228CB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		36F111F628B28E2A00D228CB /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		36F38E1B28B3FC7B0044A5D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		36F38E1D28B3FD200044A5D1 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		5037BD1CD18EB3099AE2D9B8 /* Pods-Taksimetre+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taksimetre+.debug.xcconfig"; path = "Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC1AFA9ECC958ADA79CB93F /* Pods_Taksimetre_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taksimetre_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932701BFAEF9A5B6BCC01564 /* Pods-Taksimetre+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taksimetre+.release.xcconfig"; path = "Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365D634D27B8280100D7E177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C099D257C7753D8F15C57E /* Pods_Taksimetre_.framework in Frameworks */,
+				36F38E1C28B3FC7B0044A5D1 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B8DB7D086F6FFEB938389B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5037BD1CD18EB3099AE2D9B8 /* Pods-Taksimetre+.debug.xcconfig */,
+				932701BFAEF9A5B6BCC01564 /* Pods-Taksimetre+.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		365D634727B8280100D7E177 = {
+			isa = PBXGroup;
+			children = (
+				365D635227B8280100D7E177 /* Taksimetre+ */,
+				365D635127B8280100D7E177 /* Products */,
+				22B8DB7D086F6FFEB938389B /* Pods */,
+				4A70C19A6697C9CC7CB62516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		365D635127B8280100D7E177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365D635027B8280100D7E177 /* Taksimetre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365D635227B8280100D7E177 /* Taksimetre+ */ = {
+			isa = PBXGroup;
+			children = (
+				365D636727B82B7A00D7E177 /* Model */,
+				365D636827B82B8500D7E177 /* View */,
+				365D636927B82B8900D7E177 /* Controller */,
+				3681BF0F27DCD0110051C337 /* Extensions */,
+				36628BBF2804752C00FC27DC /* AppDelegate.swift */,
+				36628BB728046E5100FC27DC /* Assets.xcassets */,
+				36F111E928B287C000D228CB /* LaunchScreen.storyboard */,
+				36F111E628B287BA00D228CB /* Main.storyboard */,
+				36628BBD28046FAF00FC27DC /* Info.plist */,
+				36573D592897403C0008C132 /* GoogleService-Info.plist */,
+				36F111F028B28B5500D228CB /* Localizable.strings */,
+				3692A43528BC385C00C59D37 /* InfoPlist.strings */,
+			);
+			path = "Taksimetre+";
+			sourceTree = "<group>";
+		};
+		365D636727B82B7A00D7E177 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36628B8828046D6D00FC27DC /* Adres.swift */,
+				367888A230995009006DC995 /* Ads.swift */,
+				36628B8928046D6D00FC27DC /* Alert.swift */,
+				36E118C828BB9F51009B9C1A /* Analytics.swift */,
+				36628B8628046D6C00FC27DC /* Annotations.swift */,
+				36628B8528046D6C00FC27DC /* Bars.swift */,
+				36E118C428BAE1A9009B9C1A /* Colors.swift */,
+				36628B8728046D6C00FC27DC /* Device.swift */,
+				36628B8028046D6C00FC27DC /* Functions.swift */,
+				3692A42F28BC327C00C59D37 /* Keychain.swift */,
+				36628B8428046D6C00FC27DC /* Konum.swift */,
+				36E118C628BAECB1009B9C1A /* Kopru.swift */,
+				36D146D02986DFD700E92DA3 /* Kullanıcı.swift */,
+				36F111F628B28E2A00D228CB /* Localize.swift */,
+				36628B7F28046D6C00FC27DC /* Menu.swift */,
+				36628B8B28046D6D00FC27DC /* Notification.swift */,
+				36F38E1D28B3FD200044A5D1 /* Payment.swift */,
+				36D146D22986E08B00E92DA3 /* Rota.swift */,
+				36628B8228046D6C00FC27DC /* Search.swift */,
+				36628BC128058CC900FC27DC /* Ücret.swift */,
+				36628B7E28046D6C00FC27DC /* Taksimetre+-Bridging-Header.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		365D636827B82B8500D7E177 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36628B9928046D9000FC27DC /* DakikaView.swift */,
+				36628B9B28046D9000FC27DC /* DakikaView.xib */,
+				36628B9C28046D9000FC27DC /* MenuCell.swift */,
+				36628B9D28046D9000FC27DC /* RotalarCell.swift */,
+				36628B9E28046D9000FC27DC /* RoundedViews.swift */,
+				36628B9A28046D9000FC27DC /* YerBulCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		365D636927B82B8900D7E177 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36628BA828046D9A00FC27DC /* BaslangicVC.swift */,
+				36628BA928046D9A00FC27DC /* HaritaVC.swift */,
+				36628BA528046D9A00FC27DC /* MenuVC.swift */,
+				36D1D6D928BBF89C00974867 /* SettingsVC.swift */,
+				36628BA628046D9A00FC27DC /* YerBulTVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3681BF0F27DCD0110051C337 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36628BAF28046DA500FC27DC /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A70C19A6697C9CC7CB62516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F38E1B28B3FC7B0044A5D1 /* StoreKit.framework */,
+				5BC1AFA9ECC958ADA79CB93F /* Pods_Taksimetre_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365D634F27B8280100D7E177 /* Taksimetre+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365D636427B8280300D7E177 /* Build configuration list for PBXNativeTarget "Taksimetre+" */;
+			buildPhases = (
+				7530D8D021CC50E3FBFDD826 /* [CP] Check Pods Manifest.lock */,
+				365D634C27B8280100D7E177 /* Sources */,
+				365D634D27B8280100D7E177 /* Frameworks */,
+				365D634E27B8280100D7E177 /* Resources */,
+				65F75DE68445D02BBEC67E34 /* [CP] Embed Pods Frameworks */,
+				F736F0EC67C2AF56DE21831B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taksimetre+";
+			productName = "Taksimetre+";
+			productReference = 365D635027B8280100D7E177 /* Taksimetre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365D634827B8280100D7E177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					365D634F27B8280100D7E177 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = 365D634B27B8280100D7E177 /* Build configuration list for PBXProject "Taksimetre+" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 365D634727B8280100D7E177;
+			productRefGroup = 365D635127B8280100D7E177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365D634F27B8280100D7E177 /* Taksimetre+ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365D634E27B8280100D7E177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3692A43328BC385C00C59D37 /* InfoPlist.strings in Resources */,
+				36F111E428B287BA00D228CB /* Main.storyboard in Resources */,
+				36628BA128046D9000FC27DC /* DakikaView.xib in Resources */,
+				36F111EE28B28B5500D228CB /* Localizable.strings in Resources */,
+				36573D5A2897403C0008C132 /* GoogleService-Info.plist in Resources */,
+				36F111E728B287C000D228CB /* LaunchScreen.storyboard in Resources */,
+				36628BB828046E5100FC27DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F75DE68445D02BBEC67E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7530D8D021CC50E3FBFDD826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taksimetre+-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F736F0EC67C2AF56DE21831B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taksimetre+/Pods-Taksimetre+-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365D634C27B8280100D7E177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36628BB028046DA500FC27DC /* Extensions.swift in Sources */,
+				36628B9128046D6D00FC27DC /* Konum.swift in Sources */,
+				36D146D12986DFD700E92DA3 /* Kullanıcı.swift in Sources */,
+				36628BC228058CC900FC27DC /* Ücret.swift in Sources */,
+				36628BA328046D9000FC27DC /* RotalarCell.swift in Sources */,
+				36628BAB28046D9A00FC27DC /* YerBulTVC.swift in Sources */,
+				36628B8C28046D6D00FC27DC /* Menu.swift in Sources */,
+				36E118C528BAE1A9009B9C1A /* Colors.swift in Sources */,
+				3692A43028BC327C00C59D37 /* Keychain.swift in Sources */,
+				36628B9328046D6D00FC27DC /* Annotations.swift in Sources */,
+				36628B9428046D6D00FC27DC /* Device.swift in Sources */,
+				36F111F728B28E2A00D228CB /* Localize.swift in Sources */,
+				36628BAA28046D9A00FC27DC /* MenuVC.swift in Sources */,
+				36628B8F28046D6D00FC27DC /* Search.swift in Sources */,
+				36628B9528046D6D00FC27DC /* Adres.swift in Sources */,
+				36D146D32986E08B00E92DA3 /* Rota.swift in Sources */,
+				36D1D6DA28BBF89C00974867 /* SettingsVC.swift in Sources */,
+				36628B8D28046D6D00FC27DC /* Functions.swift in Sources */,
+				36628B9828046D6D00FC27DC /* Notification.swift in Sources */,
+				36628BA428046D9000FC27DC /* RoundedViews.swift in Sources */,
+				36628BAD28046D9A00FC27DC /* BaslangicVC.swift in Sources */,
+				36E118C928BB9F51009B9C1A /* Analytics.swift in Sources */,
+				36628B9628046D6D00FC27DC /* Alert.swift in Sources */,
+				36628BA228046D9000FC27DC /* MenuCell.swift in Sources */,
+				36E118C728BAECB1009B9C1A /* Kopru.swift in Sources */,
+				36628B9F28046D9000FC27DC /* DakikaView.swift in Sources */,
+				36628BA028046D9000FC27DC /* YerBulCell.swift in Sources */,
+				36628BC02804752C00FC27DC /* AppDelegate.swift in Sources */,
+				367888A33099500B006DC995 /* Ads.swift in Sources */,
+				36628B9228046D6D00FC27DC /* Bars.swift in Sources */,
+				36F38E1E28B3FD200044A5D1 /* Payment.swift in Sources */,
+				36628BAE28046D9A00FC27DC /* HaritaVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3692A43528BC385C00C59D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3692A43428BC385C00C59D37 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36F111E628B287BA00D228CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F111E528B287BA00D228CB /* Base */,
+				36F111EB28B287D500D228CB /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36F111E928B287C000D228CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F111E828B287C000D228CB /* Base */,
+				36F111EA28B287D500D228CB /* tr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		36F111F028B28B5500D228CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F111EF28B28B5500D228CB /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		365D636227B8280300D7E177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		365D636327B8280300D7E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365D636527B8280300D7E177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5037BD1CD18EB3099AE2D9B8 /* Pods-Taksimetre+.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = U3F4QH9WK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taksimetre+/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Taximeter;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "akgun.can.Taksimetre-";
+				PRODUCT_NAME = Taksimetre;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Taksimetre+/Model/Taksimetre+-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		365D636627B8280300D7E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932701BFAEF9A5B6BCC01564 /* Pods-Taksimetre+.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = U3F4QH9WK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taksimetre+/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Taximeter;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ücret hesaplamak için konumunuza ihtiyacımız var.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "akgun.can.Taksimetre-";
+				PRODUCT_NAME = Taksimetre;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Taksimetre+/Model/Taksimetre+-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365D634B27B8280100D7E177 /* Build configuration list for PBXProject "Taksimetre+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365D636227B8280300D7E177 /* Debug */,
+				365D636327B8280300D7E177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365D636427B8280300D7E177 /* Build configuration list for PBXNativeTarget "Taksimetre+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365D636527B8280300D7E177 /* Debug */,
+				365D636627B8280300D7E177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365D634827B8280100D7E177 /* Project object */;
+}

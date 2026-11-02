@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Konumum"; ObjectID = "1eV-fN-f3d"; */
+"1eV-fN-f3d.normalTitle" = "Konumum";
+
+/* Class = "UINavigationItem"; title = "Nereye Gideceksin?"; ObjectID = "83Z-Hi-7iG"; */
+"83Z-Hi-7iG.title" = "Nereye Gideceksin?";
+
+/* Class = "UILabel"; text = "Başlangıç:"; ObjectID = "8g1-wQ-jLb"; */
+"8g1-wQ-jLb.text" = "Başlangıç:";
+
+/* Class = "UILabel"; text = "Ücret İstanbul tarifesine göredir."; ObjectID = "8k2-Oy-hp5"; */
+"8k2-Oy-hp5.text" = "İstanbul tarifesi";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D28-y5-zVi"; */
+"D28-y5-zVi.text" = "Label";
+
+/* Class = "UILabel"; text = "İstanbul Havalimanı"; ObjectID = "Lts-nW-IVN"; */
+"Lts-nW-IVN.text" = "İstanbul Havalimanı";
+
+/* Class = "UILabel"; text = "Rota"; ObjectID = "N9C-X3-noQ"; */
+"N9C-X3-noQ.text" = "Rota";
+
+/* Class = "UILabel"; text = "Arnatvutköy, No 56"; ObjectID = "Uk5-fo-p0r"; */
+"Uk5-fo-p0r.text" = "Arnatvutköy, No 56";
+
+/* Class = "UILabel"; text = "İstanbul Havalimanı"; ObjectID = "XeW-pc-ytK"; */
+"XeW-pc-ytK.text" = "İstanbul Havalimanı";
+
+/* Class = "UIButton"; configuration.title = "Konumum"; ObjectID = "YIv-T4-MqR"; */
+"YIv-T4-MqR.configuration.title" = "Konumum";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YIv-T4-MqR"; */
+"YIv-T4-MqR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Başlangıç Konumu"; ObjectID = "ZtU-80-0EZ"; */
+"ZtU-80-0EZ.text" = "Başlangıç Konumu";
+
+/* Class = "UITextField"; placeholder = "Bir yer ara"; ObjectID = "afL-5v-ooN"; */
+"afL-5v-ooN.placeholder" = "Bir yer ara";
+
+/* Class = "UIButton"; normalTitle = "Vazgeç"; ObjectID = "d8L-6U-ASw"; */
+"d8L-6U-ASw.normalTitle" = "Vazgeç";
+
+/* Class = "UILabel"; text = "Arnatvutköy, No 56"; ObjectID = "e6y-hR-xrl"; */
+"e6y-hR-xrl.text" = "Arnatvutköy, No 56";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "ft3-yk-rZ7"; */
+"ft3-yk-rZ7.title" = "Item";
+
+/* Class = "UILabel"; text = "Köprü ve otoyol ücretleri dâhil değildir."; ObjectID = "g5s-cw-qyn"; */
+"g5s-cw-qyn.text" = "Köprü ve otoyol ücretleri dâhil değildir.";
+
+/* Class = "UILabel"; text = "Adres"; ObjectID = "xDB-I1-oBr"; */
+"xDB-I1-oBr.text" = "Adres";
